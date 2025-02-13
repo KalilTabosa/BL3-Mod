@@ -11326,8 +11326,8 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/EventVDay/Gear/Weapon/_Uniq
 # Shlooter - Make it always spawn with three passive stat bonuses.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/VaultCard2/Gear/Artifacts/Unique/Shlooter/Balance/PartSet_Artifact_Shlooter.PartSet_Artifact_Shlooter,ActorPartLists.ActorPartLists[4].MultiplePartSelectionRange.Min,0,,3
 
-# Anointment Re-roll Cost lowered to 1 Eridium.
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/_Shared/_Design/InventoryGlobals.InventoryGlobals,PartReRollCostFormula.BaseValueConstant,0,,1
+# Anointment Re-roll Cost lowered to 0 Eridium.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/_Shared/_Design/InventoryGlobals.InventoryGlobals,PartReRollCostFormula.BaseValueConstant,0,,0
 
 # Switch the Quadomizer and Duc on the Rampager and Dreg/Rage.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Enemies/PrometheaBoss/_Shared/_Design/LootPools/ItemPool_Rampager_Gun.ItemPool_Rampager_Gun,BalancedItems.BalancedItems[0],0,,(InventoryBalanceData=/Game/Gear/Weapons/HeavyWeapons/Torgue/_Shared/_Design/_Unique/Rampager/Balance/Balance_HW_TOR_Rampager.Balance_HW_TOR_Rampager,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/Weapons/HeavyWeapons/Torgue/_Shared/_Design/_Unique/Rampager/Balance/Balance_HW_TOR_Rampager.Balance_HW_TOR_Rampager"',Weight=(BaseValueConstant=1,BaseValueScale=1))
